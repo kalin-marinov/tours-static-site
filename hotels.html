@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" type="text/css" rel="stylesheet" />-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.0.2/jquery.countdown.min.css" />
+    <link href="Content/styles.css" type="text/css" rel="stylesheet" />
+    <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Агенция <strong>№17</strong> </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li> <a href="/"> <span class="glyphicon glyphicon-home"> </span> Начало </a></li>
+                    <li> <a href="/trips.html"> <span class="glyphicon glyphicon-plane"></span> Екскурзии </a></li>
+                    <li> <a href="/destinations.html"> <span class="glyphicon glyphicon-map-marker"></span> Дестинации </a></li>
+                    <li class="active"> <a href="#"> <span class="glyphicon glyphicon-bed"></span> Хотели </a></li>
+                    <li> <a href="/about-us.html"> <span class="glyphicon glyphicon-book"></span> За нас</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-user"></span>
+                            <strong>Kalin </strong>
+                            <span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="navbar-login">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <p class="text-center">
+                                                <span class="glyphicon glyphicon-user icon-size"></span>
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <p class="text-left"><strong>Kalin Marinov</strong></p>
+                                            <p class="text-left small">kalin@email.com</p>
+                                            <p class="text-left">
+                                                <a href="#" class="btn btn-primary btn-block btn-sm">Профил</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="navbar-login navbar-login-session">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <p>
+                                                <a href="#" class="btn btn-danger btn-block">Изход</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hotels-image">
+        <div class="container">
+            <h1> Хотели </h1>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1> Препоръчани Хотели </h1>
+            <div class="row hotel-banners">
+                <div class="col-md-3 col-xs-6">
+                    <div class="tile">
+                        <img src="http://www.thefloridahotelorlando.com/var/floridahotelorlando/storage/images/media/images/header-images/home-page-headers/florida-hotel-orlando-exterior-day/27159-1-eng-US/Florida-Hotel-Orlando-Exterior-Day.jpg" width="250" alt="Compas" class="img-responsive">
+                        <h3 class="tile-title">Хотел флорида </h3>
+                        <p> Америка </p>
+                        <p> От 500 EUR / нощувка </p>
+
+                        <div class="rating-block">
+                            <h4>Рейфтинг</h4>
+                            <h2 class="bold padding-bottom-7">4.3 <small> / 5</small></h2>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-default btn-grey btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                        </div>
+
+                        <a class="btn btn-primary btn-large btn-block" href="/">Оферти</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                    <div class="tile">
+                        <img src="http://www.thefloridahotelorlando.com/var/floridahotelorlando/storage/images/media/images/header-images/home-page-headers/florida-hotel-orlando-exterior-day/27159-1-eng-US/Florida-Hotel-Orlando-Exterior-Day.jpg" width="250" alt="Compas" class="img-responsive">
+                        <h3 class="tile-title">Хотел флорида </h3>
+                        <p> Америка </p>
+                        <p> От 500 EUR / нощувка </p>
+
+                        <div class="rating-block">
+                            <h4>Рейфтинг</h4>
+                            <h2 class="bold padding-bottom-7">4.3 <small> / 5</small></h2>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-default btn-grey btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                        </div>
+
+                        <a class="btn btn-primary btn-large btn-block" href="/">Оферти</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                    <div class="tile">
+                        <img src="http://www.thefloridahotelorlando.com/var/floridahotelorlando/storage/images/media/images/header-images/home-page-headers/florida-hotel-orlando-exterior-day/27159-1-eng-US/Florida-Hotel-Orlando-Exterior-Day.jpg" width="250" alt="Compas" class="img-responsive">
+                        <h3 class="tile-title">Хотел флорида </h3>
+                        <p> Америка </p>
+                        <p> От 500 EUR / нощувка </p>
+
+                        <div class="rating-block">
+                            <h4>Рейфтинг</h4>
+                            <h2 class="bold padding-bottom-7">4.3 <small> / 5</small></h2>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-default btn-grey btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                        </div>
+
+                        <a class="btn btn-primary btn-large btn-block" href="/">Оферти</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-xs-6">
+                    <div class="tile">
+                        <img src="http://www.thefloridahotelorlando.com/var/floridahotelorlando/storage/images/media/images/header-images/home-page-headers/florida-hotel-orlando-exterior-day/27159-1-eng-US/Florida-Hotel-Orlando-Exterior-Day.jpg" width="250" alt="Compas" class="img-responsive">
+                        <h3 class="tile-title">Хотел флорида </h3>
+                        <p> Америка </p>
+                        <p> От 500 EUR / нощувка </p>
+
+                        <div class="rating-block">
+                            <h4>Рейфтинг</h4>
+                            <h2 class="bold padding-bottom-7">4.3 <small> / 5</small></h2>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                            <button type="button" class="btn btn-default btn-grey btn-sm" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                            </button>
+                        </div>
+
+                        <a class="btn btn-primary btn-large btn-block" href="/">Оферти</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1> Дестинации </h1>
+            <div class="list-group col-md-4 col-md-offset-1 col-xs-12 pull-right">
+                <a href="#" class="list-group-item active">
+                    <h4 class="list-group-item-heading">Европа</h4>
+                    <p class="list-group-item-text">Стария континент винаги може да ви изненада с нещо повече!</p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Азия</h4>
+                    <p class="list-group-item-text">Екзотични почивки и екстравагантни дестинации на невероятни цени.</p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Южна Америка</h4>
+                    <p class="list-group-item-text">Открийте един нов свят, докоснете се до множество непознати култури и различни емоции.</p>
+                </a>
+            </div>
+            <p> Проверете нашите атрактивни дестинации и коментари от хиляди хора, посетили тези чудни места! Изберете интересни за вас континенти. </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut feugiat eros. Nulla ultricies eu massa hendrerit dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc vel nisi ut magna rutrum sagittis nec vitae massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris nisi libero, consequat vel euismod ac, euismod nec nulla. Sed turpis sapien, vehicula eu arcu tempor, sodales volutpat urna. Vivamus suscipit venenatis varius. Aenean lorem nisl, hendrerit quis porta fringilla, porttitor a magna. Sed in ultrices nibh, eu porta massa. Phasellus dapibus placerat nisi, eget finibus justo volutpat eget. Nulla vehicula nulla a quam condimentum, sit amet posuere est consectetur. In nisl mauris, tincidunt ac tellus sed, malesuada laoreet lectus. Nulla facilisi. Praesent nec purus metus. Duis ornare ultricies sagittis.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <img src="https://cdn1.iconfinder.com/data/icons/financial-shopping-2/512/piggybank-512.png" width="150" class="img-responsive pull-right saving-image" /> 
+            <h1> Промоционални предложения </h1>
+            <p> <i class="glyphicon glyphicon-check"></i>  Вижте нашите промоционални предложения за следващия един месец.</p>
+            <p> <i class="glyphicon glyphicon-check"></i> Избор от над 100 дестинации. </p>
+            <p> <i class="glyphicon glyphicon-check"></i> Възможност за резервация без капариране </p>
+
+            <table class=" table table-striped table-bordered">
+                <tr>
+                    <th> Име </th>
+                    <th> Цена за нощувка </th>
+                    <th> От </th>
+                    <th> До </th>
+                </tr>
+                <tr>
+                    <td> Гранд Хотел </td>
+                    <td> 300 EUR </td>
+                    <td> 15.06.2017 </td>
+                    <td> 02.07.2017 </td>
+                </tr>
+                <tr>
+                    <td> Гранд Хотел </td>
+                    <td> 300 EUR </td>
+                    <td> 15.06.2017 </td>
+                    <td> 02.07.2017 </td>
+                </tr>
+                <tr>
+                    <td> Гранд Хотел </td>
+                    <td> 300 EUR </td>
+                    <td> 15.06.2017 </td>
+                    <td> 02.07.2017 </td>
+                </tr>
+                <tr>
+                    <td> Гранд Хотел </td>
+                    <td> 300 EUR </td>
+                    <td> 15.06.2017 </td>
+                    <td> 02.07.2017 </td>
+                </tr>
+            </table>
+
+            <button class="btn btn-success"> Още... </button>
+        </div>
+    </section>
+
+
+
+
+    <!--footer start from here-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 footer-col">
+                    <div class="logofooter"> Агенция №17 </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                    <p><i class="fa fa-map-pin"></i> #25, бул. Васил Левски, София, България</p>
+                    <p><i class="fa fa-phone"></i> Телефон (България) : +359 999 999 999</p>
+                    <p><i class="fa fa-envelope"></i> E-mail : info@agency17.com</p>
+
+                </div>
+                <div class="col-md-3 col-sm-6 footer-col">
+                    <h6 class="heading7">Усновни хипервръзки</h6>
+                    <ul class="footer-ul">
+                        <li><a href="#"> Легални въпроси</a></li>
+                        <li><a href="#"> Конфиденциалност </a></li>
+                        <li><a href="#"> Правила и условия </a></li>
+                        <li><a href="#"> Партньори</a></li>
+                        <li><a href="#"> Ранкинг </a></li>
+                        <li><a href="#"> Често задавани въпроси</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 footer-col">
+                    <h6 class="heading7">ПУБЛИКАЦИИ</h6>
+                    <div class="post">
+                        <p>Facebook рекламна дейност някаква <span>May 1,2017</span></p>
+                        <p>Facebook рекламна дейност някаква<span>May 2,2017</span></p>
+                        <p>Facebook рекламна дейност някаква<span>May 3,2017</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 footer-col">
+                    <h6 class="heading7">Социални Мрежи</h6>
+                    <ul class="footer-social">
+                        <li><i class="fa fa-linkedin social-icon linked-in" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-facebook social-icon facebook" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-twitter social-icon twitter" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-google-plus social-icon google" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer start from here-->
+    <div class="copyright">
+        <div class="container">
+            <div class="col-md-6">
+                <p>© 2017 - Всички права запазени Агенция №17 </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="scripts">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.0.2/jquery.plugin.min.js"></script>
+        <script src="Scripts/jquery.countdown.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            $('#paris-timer').countdown('2017/09/01', function (event) {
+                $(this).html(event.strftime('%w седмици %d дни %H:%M:%S'));
+            });
+            $('#rome-timer').countdown('2017/08/15', function (event) {
+                $(this).html(event.strftime('%w седмици %d дни %H:%M:%S'));
+            });
+            $('#moscow-timer').countdown('2018/01/01', function (event) {
+                $(this).html(event.strftime('%w седмици %d дни %H:%M:%S'));
+            });
+        </script>
+    </div>
+
+</body>
+</html>

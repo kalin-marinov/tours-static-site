@@ -1,0 +1,307 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.navbar-login {
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session {
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size {
+    font-size: 87px;
+}
+
+nav.navbar-default {
+    margin-bottom: 0px;
+}
+
+section {
+    padding: 120px 30px;
+}
+
+    section:nth-child(2n) {
+        background-color: #3498db;
+        color: white;
+    }
+
+    section.home-image{
+        background-image: url("../Images/banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 160px 20px;
+    }
+
+    section.hotels-image {
+        background-image: url("../Images/hotel-banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 160px 20px;
+    }
+
+    section.trips-image {
+        background-image: url("../Images/banner_sea.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 160px 20px;
+    }
+
+    section.destinations-image {
+        background-image: url("../Images/travel-banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 160px 20px;
+    }
+
+
+    section .panel-body {
+        color: rgb(44, 62, 80);
+    }
+
+.navbar-login .glyphicon {
+    color: #18bc9c;
+}
+
+.navbar {
+    box-shadow: 0px 3px 5px #1d1d1d;
+}
+
+.navbar-brand {
+    font-size: 1.6em;
+    margin-right: 20px;
+}
+
+#map-image {
+    margin-right: 20px;
+    padding-right: 30px;
+}
+
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.hotel-banners div{
+    margin-bottom:20px;
+}
+
+/*footer stuff*/
+
+footer {
+    background-color: #2c3e50;
+    min-height: 350px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+
+.footer-col {
+    margin-top: 50px;
+}
+
+.logofooter {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer-col p {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+    .footer-col p i {
+        width: 20px;
+        color: #999;
+    }
+
+.footer-ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 2px;
+}
+
+    .footer-ul li {
+        line-height: 29px;
+        font-size: 12px;
+    }
+
+        .footer-ul li a {
+            color: #a0a3a4;
+            transition: color 0.2s linear 0s, background 0.2s linear 0s;
+        }
+
+    .footer-ul i {
+        margin-right: 10px;
+    }
+
+    .footer-ul li a:hover {
+        transition: color 0.2s linear 0s, background 0.2s linear 0s;
+        color: #ff670f;
+    }
+
+.copyright {
+    min-height: 40px;
+    background-color: #000000;
+}
+
+    .copyright p {
+        text-align: left;
+        color: #FFF;
+        padding: 10px 0;
+        margin-bottom: 0;
+    }
+
+.heading7 {
+    font-size: 21px;
+    font-weight: 700;
+    color: #d9d6d6;
+    margin-bottom: 22px;
+}
+
+.post p {
+    font-size: 12px;
+    color: #FFF;
+    line-height: 20px;
+}
+
+    .post p span {
+        display: block;
+        color: #8f8f8f;
+    }
+
+.bottom_ul {
+    list-style-type: none;
+    float: right;
+    margin-bottom: 0;
+}
+
+    .bottom_ul li {
+        float: left;
+        line-height: 40px;
+    }
+
+        .bottom_ul li:after {
+            content: "/";
+            color: #FFF;
+            margin-right: 8px;
+            margin-left: 8px;
+        }
+
+        .bottom_ul li a {
+            color: #FFF;
+            font-size: 12px;
+        }
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 7px;
+    border-radius: 50%;
+}
+
+
+.footer-social li {
+    float: left;
+}
+
+.linked-in {
+    background-color: #007bb6;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.google {
+    background-color: #f63e28;
+}
+
+/*end footer stuff*/
+
+
+/*rating stuff*/
+
+
+.btn-grey {
+    background-color: #D8D8D8;
+    color: #FFF;
+}
+
+.rating-block {
+    background-color: #FAFAFA;
+    border: 1px solid #EFEFEF;
+    padding: 15px 15px 20px 15px;
+    border-radius: 3px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.padding-bottom-7 {
+    padding-bottom: 7px;
+}
+
+.review-block {
+    background-color: #FAFAFA;
+    border: 1px solid #EFEFEF;
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.review-block-name {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.review-block-date {
+    font-size: 12px;
+}
+
+.review-block-rate {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.review-block-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.review-block-description {
+    font-size: 13px;
+}
+
+.saving-image{
+    margin:15px;
+}
+
+/* end rating stuff */
