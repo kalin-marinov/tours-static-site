@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.0.2/jquery.countdown.min.css" />
     <link href="Content/styles.css" type="text/css" rel="stylesheet" />
     <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="Content/bootstrap-datetimepicker.min.css" />
 </head>
 
 <body>
@@ -141,14 +142,53 @@
         </div>
     </section>
 
-    <section>
+    <section id="main">
+        <div class="container">
+            <h3> Избери период за твоето пътуване</h3>
+
+            <form class="row">
+                <div class="form-group col-md-3">
+                    <div class='input-group date' id='fromPicker'>
+                        <input type='text' class="form-control" placeholder="От" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group col-md-3">
+                    <div class='input-group date' id='toPicker'>
+                        <input type='text' class="form-control" placeholder="До" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group col-md-5">
+                    <div class="input-group stylish-input-group">
+                        <input type="text" class="form-control" id="destination" placeholder="Дестинация">
+                        <span class="input-group-addon">
+                            <button type="submit">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+
+                <button class="btn btn-success col-md-1"> Търси </button>
+            </form>
+        </div>
+        <hr />
         <div class="container">
             <img class="pull-right img-responsive" width="500" src="https://static.vecteezy.com/system/resources/previews/000/115/360/non_2x/vector-free-flat-hotel-icons.jpg"
-                alt="hotel icons" />
+                 alt="hotel icons" />
             <h1> Хотели </h1>
             <p> Агенция №17 работи с най-добрите хотели. Вие избирате условията! </p>
-            <p> Друг рекламен текст може да бъде поставен тук, с цел по-добър изглед на уеб сайта, благодарение на количеството
-                тест в контейнерите</p>
+            <p>
+                Друг рекламен текст може да бъде поставен тук, с цел по-добър изглед на уеб сайта, благодарение на количеството
+                тест в контейнерите
+            </p>
             <ul>
                 <li> <i class="glyphicon glyphicon-check"></i> Паркинг </li>
                 <li> <i class="glyphicon glyphicon-check"></i> Заплащане с карта </li>
@@ -162,18 +202,22 @@
         </div>
     </section>
 
-
-    <section>
+    <section id="trips">
         <div class="container">
             <h1> Атрактивни екскурзии с Агенция №17 </h1>
-            <img src="http://designmodo.github.io/Flat-UI/img/icons/svg/map.svg" id="map-image" width="200" class="pull-left img-responsive"
-            />
+            <img src="http://designmodo.github.io/Flat-UI/img/icons/svg/map.svg" id="map-image" width="200" class="pull-left img-responsive" />
             <p> Вие избирате маршрута на ексурзията! </p>
-            <p> Ние организираме събитието!</p>
+            <p> Ние организираме събитието! <br />
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+                Cras ut feugiat eros. Nulla ultricies eu massa hendrerit dapibus. <br />
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. <br/>
+                Cras ut feugiat eros. Nulla ultricies eu massa hendrerit dapibus. <br />
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+            </p>
         </div>
     </section>
 
-    <section>
+    <section id="destinations">
         <div class="container">
             <h1> Дестинации </h1>
             <div class="list-group col-md-4 col-md-offset-1 col-xs-12 pull-right">
@@ -190,8 +234,10 @@
                     <p class="list-group-item-text">Открийте един нов свят, докоснете се до множество непознати култури и различни емоции.</p>
                 </a>
             </div>
-            <p> Проверете нашите атрактивни дестинации и коментари от хиляди хора, посетили тези чудни места! Изберете интересни
-                за вас континенти. </p>
+            <p>
+                Проверете нашите атрактивни дестинации и коментари от хиляди хора, посетили тези чудни места! Изберете интересни
+                за вас континенти.
+            </p>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut feugiat eros. Nulla ultricies eu massa hendrerit dapibus.
                 Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc vel nisi ut magna rutrum sagittis nec
@@ -213,8 +259,10 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6 footer-col">
                     <div class="logofooter"> Агенция №17 </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley.
+                    </p>
                     <p><i class="fa fa-map-pin"></i> #25, бул. Васил Левски, София, България</p>
                     <p><i class="fa fa-phone"></i> Телефон (България) : +359 999 999 999</p>
                     <p><i class="fa fa-envelope"></i> E-mail : info@agency17.com</p>
@@ -262,21 +310,34 @@
 
     <div id="scripts">
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-            crossorigin="anonymous"></script>
+                crossorigin="anonymous"></script>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.0.2/jquery.plugin.min.js"></script>
         <script src="Scripts/jquery.countdown.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/scripts/moment.min.js"></script>
+        <script type="text/javascript" src="/scripts/bootstrap-datetimepicker.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIvFjP1anjo_aY2i8CDFdrM4RQRoxbfWA&libraries=places"></script>
+
         <script type="text/javascript">
-            $('#paris-timer').countdown('2017/09/01', function (event) {
-                $(this).html(event.strftime('%w седмици %d дни %H:%M:%S'));
+            $(function () {
+                $('#paris-timer').countdown('2017/09/01', function (event) {
+                    $(this).html(event.strftime('%w седмици %d дни %H:%M:%S'));
+                });
+
+                $('#rome-timer').countdown('2017/08/15', function (event) {
+                    $(this).html(event.strftime('%w седмици %d дни %H:%M:%S'));
+                });
+                $('#moscow-timer').countdown('2018/01/01', function (event) {
+                    $(this).html(event.strftime('%w седмици %d дни %H:%M:%S'));
+                });
+
+                $('#fromPicker').datetimepicker({ format: 'DD.MM.YYYY' });
+                $('#toPicker').datetimepicker({ format: 'DD.MM.YYYY' });
             });
-            $('#rome-timer').countdown('2017/08/15', function (event) {
-                $(this).html(event.strftime('%w седмици %d дни %H:%M:%S'));
-            });
-            $('#moscow-timer').countdown('2018/01/01', function (event) {
-                $(this).html(event.strftime('%w седмици %d дни %H:%M:%S'));
-            });
+
+            var autocomplete = new google.maps.places.Autocomplete(document.getElementById("destination"));
         </script>
     </div>
 
